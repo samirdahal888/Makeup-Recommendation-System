@@ -12,12 +12,6 @@ class Baseadvisor(ABC):
 
     def get_user_information(self):
         return f" Client :{self.__name} - {self._face_shape} face ,{self._skin_tone} skin"
-    
-    @staticmethod
-    def is_valid_face_shape(shape):
-        valid_shapes = ['oval','round','square','heart']
-        return shape in valid_shapes
-    
     @classmethod
     def general_tips(cls):
         return' general Tip: Always mosturie before makeup!'
