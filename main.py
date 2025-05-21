@@ -18,6 +18,8 @@ def main():
     #create advisor
     advisor = get_advisor(name,skin_type,face_shape,skin_tone)
 
+    print('-------------------------------------------------------------------------------------------------------------------------------------')
+
     print(advisor.get_user_information())
     print()
     advisor.recommend_makeup()
