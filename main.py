@@ -23,6 +23,7 @@ def main():
     advisor.recommend_makeup()
     print()
     print(advisor.general_tips())
+    print()
 
 if __name__ == "__main__":
     main()
